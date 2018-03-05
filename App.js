@@ -16,7 +16,6 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <TextInput style={styles.textInput}/>
 		<Button title="Press me" onPress={()=>this.setState({showActivityIndicator:true})} style={styles.btn}/>
-			{showActivityIndicator && <ActivityIndicator />}
 		
       </View>
     );
